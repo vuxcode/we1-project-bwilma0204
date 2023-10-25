@@ -22,7 +22,8 @@ This is how I will use my 30 hours on this project...
 
 I've included some drawings in the repository for what I think the webite will look like and how it will work.
 
-![image description here](image-filename.svg)
+![image](https://github.com/vuxcode/we1-plan-bwilma0204/assets/148203978/72de07f1-12ba-4ed6-a79d-21b0907e1aaf)
+
 
 <!-- INSERT YOUR IMAGES IN THE REPOSITORY + OPTIONAL: COPY THE SYNTAX ABOVE TO ADD YOUR OWN IMAGES IN "MARKDOWN" -->
 
@@ -30,7 +31,7 @@ I've included some drawings in the repository for what I think the webite will l
 
 I am inspired by the following sources...
 
-![image description here](image-filename.svg)
+
 
 <!-- INCLUDE AT LEAST 3 EXAMPLES WITH SCREENSHOTS AND LINKS. EXPLAIN THE REASONS WHY YOU LIKE THE DESIGN OR THE USER EXPERIENCE -->
 
