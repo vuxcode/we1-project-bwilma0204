@@ -8,7 +8,7 @@
 
 ## Idea
 
-This is my website idea...
+Jag kommer göra en portfolio, ämnet är mina tatueringar  
 
 <!-- INSERT YOUR EXPLANATION FOR YOUR IDEA HERE -->
 
