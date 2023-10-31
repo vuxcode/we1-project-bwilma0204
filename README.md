@@ -31,6 +31,7 @@ I've included some drawings in the repository for what I think the webite will l
 ## Inspiration
 
 I am inspired by the following sources...
+https://www.charlesdaoud.com/
 
 
 
