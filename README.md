@@ -24,8 +24,8 @@ I've included some drawings in the repository for what I think the webite will l
 
 ![image](https://github.com/vuxcode/we1-plan-bwilma0204/assets/148203978/72de07f1-12ba-4ed6-a79d-21b0907e1aaf)
 
+![tatto-high-resolution-logo-transparent](https://github.com/vuxcode/we1-plan-bwilma0204/assets/148203978/706f580b-8571-4363-a401-7dc2e3c364e0)
 
-tatto-high-resolution-logo-transparent.png
 <!-- INSERT YOUR IMAGES IN THE REPOSITORY + OPTIONAL: COPY THE SYNTAX ABOVE TO ADD YOUR OWN IMAGES IN "MARKDOWN" -->
 
 ## Inspiration
