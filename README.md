@@ -16,6 +16,7 @@ Jag kommer göra en portfolio, ämnet är mina tatueringar
 
 This is how I will use my 30 hours on this project...
 
+
 <!-- INSERT A PLAN FOR HOW YOU ARE GOING TO USE THE TIME LIMIT. TRY TO BREAK THE WHOLE WEBSITE DOWN INTO SMALLER TASKS -->
 
 ## Sketches
@@ -39,12 +40,15 @@ https://www.charlesdaoud.com/
 
 ## Promises
 
-1. ???
+1. länkade bilder
+2. hemsida
+3. om mig sida
+4. kontakt sida
 
 <!-- WRITE A LIST OF PROMISES FOR WHAT THE USER SHOULD BE ABLE TO DO ON THE WEBSITE; BE OPEN AND HONEST! WHAT DO YOU THINK YOU CAN DO BEFORE THE DEADLINE -->
 
 ## The User Will Not Be Able To Do The Following Things
 
-1. ???
+1. sökruta
 
 <!-- MAKE SUGGESTIONS FOR WHAT THE USER WILL NOT BE ABLE TO DO ON THE WEBSITE. WHAT MIGHT A CLIENT OR A USER EXPECT TO DO WITH ON YOUR WEBSITE THAT YOU DON'T THINK WILL BE POSSIBLE TO DO BEFORE THE FINAL DEADLINE. WRITE A CLEAR LIST OF THINGS -->
