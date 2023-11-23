@@ -4,55 +4,54 @@
         <title>Tatto home</title>
         <style>
             body {
-                background: #718F94;
+                background: #F9EDCC;
                 margin: 0px;
                 
             }
             .header-main {
-                width: 100%;
+                width: fit-content;
                 height: 80px;
-                background-color: aquamarine;
+                background-color: #c55faf;
                 display: flex;
-                justify-content:space-between;
+                
             }
 
-            .logo img {
-                width: 80px;
-                
+             img {
+                width: 200px;
+                align-self: center;
 
             }
             .logo {
-                width: 120px;
+                width: 200px;
                 height: 100%;
-                background: #da0d0d;
-                
+                background: #f8c11c;
+                padding-left: 30px;
+                display: flex;
             }
-            .tatto {
-                width: 120px;
-                height: 100%;
-                background: blue;
+
+            .navigation ul {
+                list-style: none;
+
             }
-            .home {
-                width: 120px;
-                height: 100%;
-                background: #0daada;
+            .navigation ul li {
+                display: inline;
+                float: left;
+                margin-right: 10px;
+
             }
-            .abaut {
-                width: 120px;
-                height: 100%;
-                background: #354635;
-            }
-            .contact {
-                width: 120px;
-                height: 100%;
-                background: #d7da0d;
+
+            .navigation ul li a {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 40px;
+
             }
             a {
                 color: #001011;
+                cursor: pointer;
             }
             a:hover {
                 color: #A67F8E ;
-                text-align: centerf;
+                text-align: center;
             }
             
         
@@ -63,14 +62,18 @@
         <header class="header-main">
           <div class="logo">
 
-              <img src="logo.png" alt="Logohome">
-              
+              <img src="tatto-high-resolution-logo-transparent.png" alt="Logohome">
           </div>
-          
-          <div class="Tatto">
-            <img src="tatto-high-resolution-logo-transparent.png" alt="tattoimg" style="width: 200px;"
-          </div>
+         <nav class="navigation">
+            <ul>
+                <li><a href="tattoprodject.html"></a>HOME</li>
+                <li><a href="tattoabaut.html"></a>ABAUT</li>
+                <li><a href="tattocontact.html"></a>CONTACT</li>
+            </ul>
+
+         </nav>
          
+         <!-- </div>
           <div class="Home">
             <a href="tattoprodject.html">Home</a>
           </div>
@@ -81,7 +84,7 @@
           
           <div class="contact">
             <a href="tattocontact.html">Contact</a>
-          </div>
+          </div>-->
           
 
          
