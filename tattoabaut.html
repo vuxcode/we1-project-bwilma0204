@@ -4,23 +4,90 @@
         <title>Tatto home</title>
         <style>
             body {
-                background: #718F94;
+                background: #F9EDCC;
                 margin: 0px;
                 
             }
-            img {
-                width: 100px;
-            }
-            .logo {
+            .header-main {
+                width: fit-content;
+                height: 80px;
+                background-color: #c55faf;
+                display: flex;
                 
+            }
+
+             img {
+                width: 200px;
+                align-self: center;
 
             }
+            .logo {
+                width: 200px;
+                height: 100%;
+                background: #f8c11c;
+                padding-left: 30px;
+                display: flex;
+            }
+
+            .navigation ul {
+                list-style: none;
+
+            }
+            .navigation ul li {
+                display: inline;
+                float: left;
+                margin-right: 10px;
+
+            }
+
+            .navigation ul li a {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 40px;
+                text-align: center;
+                text-decoration: none;
+
+            }
+           
+            a:hover {
+                color: #718F94 ;
+            }
+            
+        
 
         </style>
     </head>
     <body>
-        <div class="logo" style="background: #A67F8E">
-            <img src="logo.png" alt="Logo">
+        <header class="header-main">
+          <div class="logo">
+
+              <img src="tatto-high-resolution-logo-transparent.png" alt="Logohome">
+          </div>
+         <nav class="navigation">
+            <ul>
+                <li><a href="tattoprodject.html">HOME</a></li>
+                <li><a href="tattoabaut.html">ABAUT</a></li>
+                <li><a href="tattocontact.html">CONTACT</a></li>
+            </ul>
+
+         </nav>
+         
+         <!-- </div>
+          <div class="Home">
+            <a href="tattoprodject.html">Home</a>
+          </div>
+          
+          <div class="abaut">
+            <a href="tattoabaut.html">Abaut</a>
+          </div>
+          
+          <div class="contact">
+            <a href="tattocontact.html">Contact</a>
+          </div>-->
+          
+
+         
+        </header>
+
         </div>
     </body>
 </html>
