@@ -1,0 +1,5 @@
+All the coulor
+black - #001011
+pink - #A67F8E
+blue gray - #718F94
+yellow - #F9EDCC
