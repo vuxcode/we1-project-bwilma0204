@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Tatto home</title>
+        
         <style>
             body {
                 background: #F9EDCC;
@@ -11,7 +12,7 @@
             .header-main {
                 width: fit-content;
                 height: 80px;
-                background-color: #c55faf;
+                
                 display: flex;
                 
             }
@@ -24,7 +25,7 @@
             .logo {
                 width: 200px;
                 height: 100%;
-                background: #f8c11c;
+               
                 padding-left: 30px;
                 display: flex;
             }
@@ -51,7 +52,24 @@
             a:hover {
                 color: #718F94 ;
             }
-            
+            fieldset {
+                width: fit-content;
+                height: 200px;
+                margin: auto;
+                text-align: left;
+                margin-top: 200px;
+                border-color: #718F94;
+                border-style:ridge;
+                border-radius: 10px;
+                
+                
+            }
+            fieldset legend {
+                color: #001011;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+
+            }
         
 
         </style>
@@ -70,24 +88,20 @@
             </ul>
 
          </nav>
-         
-         <!-- </div>
-          <div class="Home">
-            <a href="tattoprodject.html">Home</a>
-          </div>
-          
-          <div class="abaut">
-            <a href="tattoabaut.html">Abaut</a>
-          </div>
-          
-          <div class="contact">
-            <a href="tattocontact.html">Contact</a>
-          </div>-->
-          
-
-         
         </header>
+        <fieldset>
+            <legend>Kontakta mig</legend>
+            <form class="kontakta" action="" method="post">
+                
+                <input  name="Namn" placeholder="Skriv ditt namn">
+                <input type="text" name="E_post" placeholder="Skriv din e-post">
+                <textarea name="medelande" placeholder="medelande"></textarea>
+                <button type="skicka in" name="Skicka in"> Skicka in</button>
 
-        </div>
+            </form>
+            
+
+
+        </fieldset>
     </body>
 </html>
