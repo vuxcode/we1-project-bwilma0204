@@ -6,69 +6,82 @@
         <style>
             body {
                 background: #F9EDCC;
-                margin: 0px;
-                
+                margin: 0px; 
             }
             .header-main {
                 width: fit-content;
-                height: 80px;
-                
+                height: 80px;               
                 display: flex;
-                
             }
-
              img {
                 width: 200px;
                 align-self: center;
-
             }
             .logo {
                 width: 200px;
                 height: 100%;
-               
                 padding-left: 30px;
                 display: flex;
             }
-
             .navigation ul {
                 list-style: none;
-
             }
             .navigation ul li {
                 display: inline;
                 float: left;
                 margin-right: 10px;
-
             }
-
             .navigation ul li a {
                 font-family: Arial, Helvetica, sans-serif;
                 line-height: 40px;
                 text-align: center;
                 text-decoration: none;
-
             }
-           
             a:hover {
                 color: #718F94 ;
             }
             fieldset {
                 width: fit-content;
-                height: 200px;
-                margin: auto;
-                text-align: left;
-                margin-top: 200px;
+                height: fit-content;
+                margin-top: 50px;
+                margin-left: 50px;
+
                 border-color: #718F94;
                 border-style:ridge;
-                border-radius: 10px;
-                
-                
+                border-radius: 10px;     
             }
             fieldset legend {
                 color: #001011;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: medium;
-
+            }
+            textarea {
+                width: 300px;
+                height: 100px;
+                resize: vertical;
+                border-radius: 5px
+            }
+            input {
+                border-radius: 5px;
+                height: 30px;
+            }
+            button {
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 15px;
+                cursor: pointer;
+                text-align: center;
+                color: #001011;
+                background-color: #A67F8E;
+                border: none;
+                border-radius: 10px;
+            }
+            button:hover {
+                background-color: #c295a6;
+            }
+            button:active {
+                background-color: #c295a6;
+                transform: translateY(4px);
             }
         
 
@@ -92,12 +105,23 @@
         <fieldset>
             <legend>Kontakta mig</legend>
             <form class="kontakta" action="" method="post">
-                
-                <input  name="Namn" placeholder="Skriv ditt namn">
-                <input type="text" name="E_post" placeholder="Skriv din e-post">
-                <textarea name="medelande" placeholder="medelande"></textarea>
+                <label for="förnamn">Förnamn</label>
+                <br>
+                <input id="förnamn" name="förnamn" placeholder="Skriv ditt förrnamn...">
+                <br><br>
+                <label for="efternamn">Efternamn</label>
+                <br>
+                <input id="förnamn" name="förnamn" placeholder="Skriv ditt efternamn...">
+                <br><br>
+                <label for="e-post">Din e-post</label>
+                <br>
+                <input id="e-post" name="E_post" placeholder="Skriv din e-post...">
+                <br><br>
+                <label for="meddelande">Meddelande</label>
+                <br>
+                <textarea  name="meddelande" id="meddelande" placeholder="Skriv ditt meddelande..."></textarea>
+                <br><br>
                 <button type="skicka in" name="Skicka in"> Skicka in</button>
-
             </form>
             
 
