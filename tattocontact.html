@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
     <head>
         <title>Tatto home</title>
         
@@ -36,15 +36,36 @@
                 line-height: 40px;
                 text-align: center;
                 text-decoration: none;
+                color: #001011;
             }
-            a:hover {
-                color: #718F94 ;
+            .line{
+                height: 50px;
+                background-color: #718F94;
+            }
+            .line2 {
+                height: 752px;
+                width: 300px;
+                margin-left: 1406px;
+                background-color: #718F94;
+            }
+            .line3{
+                height: 752px;
+                width: 300px;
+                margin-top: -752px;
+                
+                background-color: #718F94;
+            }
+            .line4 {
+                height: 30px;
+                background-color: #718F94;
+                margin-top: -30px;
             }
             fieldset {
                 width: fit-content;
                 height: fit-content;
-                margin-top: 50px;
-                margin-left: 50px;
+                margin-top: -702px;
+                margin-left: 350px;
+                
 
                 border-color: #718F94;
                 border-style:ridge;
@@ -59,11 +80,23 @@
                 width: 300px;
                 height: 100px;
                 resize: vertical;
-                border-radius: 5px
+                border-radius: 10px
+                
             }
             input {
                 border-radius: 5px;
                 height: 30px;
+                border-color: #718F94;
+                
+            }
+            textarea, input {
+                border: 1px solid #718F94;
+                padding: 5px;
+                
+            }
+            textarea.focus, input:focus {
+                
+                outline: 1px solid #192122 ;
             }
             button {
                 display: inline-block;
@@ -81,7 +114,7 @@
             }
             button:active {
                 background-color: #c295a6;
-                transform: translateY(4px);
+                transform: translateY(3px);
             }
         
 
@@ -95,33 +128,37 @@
           </div>
          <nav class="navigation">
             <ul>
-                <li><a href="tattoprodject.html">HOME</a></li>
-                <li><a href="tattoabaut.html">ABAUT</a></li>
-                <li><a href="tattocontact.html">CONTACT</a></li>
+                <li><a href="tattoprodject.html">Hem</a></li>
+                <li><a href="tattoabaut.html">Om mig</a></li>
+                <li><a href="tattocontact.html">Kontakta mig</a></li>
             </ul>
 
          </nav>
         </header>
+        <div class="line"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+        <div class="line4"></div>
         <fieldset>
             <legend>Kontakta mig</legend>
-            <form class="kontakta" action="" method="post">
-                <label for="förnamn">Förnamn</label>
+            <form class="kontakta" action="exemple.html" method="post">
+                <label for="fornamn">Förnamn</label>
                 <br>
-                <input id="förnamn" name="förnamn" placeholder="Skriv ditt förrnamn...">
+                <input required  id="fornamn" name="fornamn" placeholder="Skriv ditt förrnamn...">
                 <br><br>
                 <label for="efternamn">Efternamn</label>
                 <br>
-                <input id="förnamn" name="förnamn" placeholder="Skriv ditt efternamn...">
+                <input required id="efternamn" name="efternamn" placeholder="Skriv ditt efternamn...">
                 <br><br>
-                <label for="e-post">Din e-post</label>
+                <label for="epost">Din e-post</label>
                 <br>
-                <input id="e-post" name="E_post" placeholder="Skriv din e-post...">
+                <input required id="epost" type="email" name="E_post" placeholder="Skriv din e-post...">
                 <br><br>
                 <label for="meddelande">Meddelande</label>
                 <br>
-                <textarea  name="meddelande" id="meddelande" placeholder="Skriv ditt meddelande..."></textarea>
+                <textarea required name="meddelande" id="meddelande" placeholder="Skriv ditt meddelande..."></textarea>
                 <br><br>
-                <button type="skicka in" name="Skicka in"> Skicka in</button>
+                <button type="submit" name="Skicka in"> Skicka in</button>
             </form>
             
 
