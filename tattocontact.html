@@ -2,17 +2,22 @@
 <html lang="sv">
     <head>
         <title>Tatto home</title>
-        
         <style>
             body {
                 background:#718F94;
                 margin: 0px; 
+            }
+            h1 {
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
             }
             .header-main {
                 width: 100%;
                 height: 80px;               
                 display: flex;
                 background-color:#F9EDCC ;
+                border-radius: 10px;
             }
              img {
                 width: 200px;
@@ -46,20 +51,18 @@
                 width: 2000px;
                 height: 1100px;
                 background: #F9EDCC;
-               margin: auto;
-               margin-top: 50px;
-                
-            }
-            
+                margin: auto;
+                margin-top: 50px; 
+                border-radius: 10px;              
+            }            
             fieldset {
                 width: fit-content;
-                height: fit-content;
-                
+                height: fit-content;               
                 margin-left: 30px;
                 border-color: #718F94;
                 border-style:ridge;
-                border-radius: 10px; 
-
+                border-radius: 10px;
+                margin-top: auto;
             }
             fieldset legend {
                 color: #001011;
@@ -70,20 +73,17 @@
                 width: 300px;
                 height: 100px;
                 resize: vertical;
-                border-radius: 10px
-                
+                border-radius: 10px               
             }
             input {
                 border-radius: 5px;
                 height: 30px;
-                border-color: #718F94;
-                
+                border-color: #718F94;   
             }
             textarea, input {
                 border: 1px solid #718F94;
                 padding: 5px;
                 background: #A67F8E;
-                
             }
             textarea.focus, input:focus {
                 
@@ -111,14 +111,11 @@
                 background-color: #c295a6;
                 transform: translateY(3px);
             }
-        
-
         </style>
     </head>
     <body>
         <header class="header-main">
           <div class="logo">
-
               <img src="tatto-high-resolution-logo-transparent.png" alt="Logohome">
           </div>
          <nav class="navigation">
@@ -127,14 +124,10 @@
                 <li><a href="tattoabaut.html">Om mig</a></li>
                 <li><a href="tattocontact.html">Kontakta mig</a></li>
             </ul>
-
          </nav>
         </header>
+        <h1>Kontakta mig</h1>
         <div class="yellow">
-        
-            
-
-        
         <fieldset>
             <legend>Kontakta mig</legend>
             <form class="kontakta" action="exemple.html" method="post">
@@ -156,11 +149,6 @@
                 <br><br>
                 <button type="submit" name="Skicka in"> Skicka in</button>
             </form>
-        </div>
-        
-            
-
-
         </fieldset>
     </body>
 </html>
